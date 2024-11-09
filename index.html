@@ -1,18 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdonw</title>
+    <title>Countdown</title>
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sancreek&family=Vesper+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Sancreek&family=Vesper+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Sancreek&family=Vesper+Libre:wght@400;500;700;900&family=Emilys+Candy&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
 </head>
 <body>
     <div id="particles-js"></div>
@@ -22,7 +20,7 @@
     <div class="container-btn">
         <button id="myBtn"><img src="play.png" alt="play"></button> 
     </div>
-    <audio id="myAudio" src="Let It Snow - Dean Martin.mp3" loop="loop" autoplay="'allowed"></audio>
+    <audio id="myAudio" src="Let It Snow - Dean Martin.mp3" loop autoplay></audio>
 
 </div>
 <div class=container>
@@ -58,9 +56,10 @@
 </div>
 
 <div class="heading">
-    <h2>Christmas Movies</h2>   
+    <h2>Christmas Movies</h2> 
+    <div class="container-btn">
     <button id="myBtn" class="clickMovie"><img src="movie.png" alt="movie"></button> 
-</div>
+</div></div>
 
 <div class="input-field">
     <input id="search" type="text" placeholder="Search...">
@@ -154,7 +153,6 @@
 
 
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="script.js"></script>    
 </body>
