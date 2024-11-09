@@ -1,0 +1,173 @@
+
+body {
+    background-color: red;
+  
+}
+
+.bodyOne {
+    background-image: url("santa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 10px;
+    border: 3px solid black;
+    font-family: "Sancreek", serif;
+    font-weight:500;
+    font-style: normal;
+}
+h2 {
+    font-size: 40px;
+    background-color: rgba(251, 248, 249, 0.9);
+    padding: 10px;
+    border: 3px solid black;
+    font-family: "Sancreek", serif;
+    font-weight:400;
+    font-style: normal;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.christmas {
+    background-color: rgba(251, 248, 249, 0.82); 
+    height: 300px;
+    width: 200px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: "Sancreek", serif;
+    font-size: 40px;
+}
+
+.days, .hours, .min, .sec {
+    font-family: "Sancreek", serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.red {
+    font-family: "Emilys Candy", serif;
+    font-size: 60px;
+    border: none;
+    color: rgb(76, 33, 33);
+}
+
+button {
+    border: none;
+    border-radius: 70px;
+    background: none; /* Removes the background */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes default padding */
+    cursor: pointer; 
+}
+
+#myBtn img{
+    width: 70px;
+    height: 70px; 
+    border: 1.5px solid black;
+    border-radius: 20px;
+    margin: 40px;
+    z-index: 2;
+}
+
+.input-field {
+    display: flex;
+    
+}
+
+#search {
+    flex: 1;
+    display: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Sancreek", serif;
+}
+
+.containerOne {
+    flex-wrap: wrap;
+    display: none;
+}
+
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: "Sancreek", serif;
+    font-size: 18px;
+}
+
+.content {
+  max-width: 70%;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+    border-radius: 70px;
+}
+
+.container_btn {
+    display: flex;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  
+}
+
+  
+@media all and (max-width: 800px) {
+h1 {
+    font-size: 40px;
+}}
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }}
+
+
+
+
+    
