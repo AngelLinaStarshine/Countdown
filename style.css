@@ -13,6 +13,7 @@ body {
 .heading{
     display: flex;
     justify-content: center;
+    z-index: 2;
 }
 
 h1 {
@@ -78,7 +79,9 @@ button {
     border: none; /* Removes the border */
     padding: 0; /* Removes default padding */
     cursor: pointer; 
+ 
 }
+
 
 #myBtn img{
     width: 70px;
@@ -87,6 +90,7 @@ button {
     border-radius: 20px;
     margin: 40px;
     z-index: 2;
+
 }
 
 .input-field {
@@ -151,10 +155,9 @@ img {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 1;
   top: 0;
-  left: 0;
-  
+  left: 0;  
 }
 
   
